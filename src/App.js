@@ -87,7 +87,10 @@ function App() {
             </div>
           </div>
         ) : (
-          " "
+          <div className="message">
+            <p>Get real time weather update.</p>
+            <p>Enter your city.</p>
+          </div>
         )}
       </main>
     </div>

@@ -39,7 +39,7 @@ main {
   appearance: none;
   background: none;
   border: none;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
 
   color: #313131;
@@ -94,4 +94,12 @@ main {
   color: #fff;
   font-size: 48px;
   font-weight: 600;
+}
+
+.message{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
