@@ -27,8 +27,16 @@ function App() {
           placeholder="search"/>
         </div>
         <div className="location-box">
-          <div className="location">Lagos, Nigeria</div>
+          <h1 className="location">Lagos, Nigeria</h1>
           <div className="date">{dateBuilder(new Date())}</div>
+        </div>
+        <div className="weather-box">
+          <div className="temp">
+            15ºc
+          </div>
+          <div className="weather">
+            Sunny
+          </div>
         </div>
       </main>
       
